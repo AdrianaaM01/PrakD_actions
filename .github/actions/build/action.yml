@@ -1,0 +1,8 @@
+runs:
+  using: "composite"
+  steps: 
+    - name: Install depedencies
+      run: |
+        echo Installing all required depdendencies..
+        pip install -r requirements.txt
+      shell: power
